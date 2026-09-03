@@ -5,6 +5,17 @@
     <link>https://github.com/gambidrissi-dev/syntax-Share</link>
     <description>Mises à jour de Syntax</description>
     <item>
+      <title>Version 1.1.0</title>
+      <pubDate>Thu, 03 Sep 2026 22:36:45 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/syntax-Share/releases/download/v1.1.0/Syntax-1.1.0.zip"
+                 sparkle:edSignature="dTVDcPwSS4X9Wg7MTwNn81TVQAHFTft3lqieSvQZMb15bPE4/kODCeZvfaNN28ISrVB7nQY4gbhh616AeAazCg=="
+                 length="3456843"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.1</title>
       <pubDate>Wed, 02 Sep 2026 22:45:18 +0000</pubDate>
       <sparkle:version>3</sparkle:version>
