@@ -5,6 +5,24 @@
     <link>https://github.com/gambidrissi-dev/syntax-Share</link>
     <description>Mises à jour de Syntax</description>
     <item>
+      <title>Version 2.7.0</title>
+      <description><![CDATA[
+<h3>Dit ce qu'une mise à jour apporte, et quelle version répond en face</h3>
+<p><b>Les notes de version.</b> Sparkle proposait « Version 2.6.0 » et rien d'autre : on installait sans savoir quoi. L'item de l'appcast n'avait pas de <code>&lt;description&gt;</code>, et la release GitHub disait « Publication automatique depuis le repo privé ». Or les messages de commit d'ici disent déjà le pourquoi de chaque changement — ce sont les notes, il n'y avait qu'à les rendre. Le message du commit taggé part maintenant dans les deux, en HTML pour la fenêtre de Sparkle.</p>
+<p>La conversion est un script à part, avec son contrôle : six règles — titre, gras, code inline, paragraphes recollés — plutôt qu'un moteur Markdown. Les lignes de dressage sont retirées ; une adresse de courriel n'a rien à faire dans un appcast public.</p>
+<p>Au passage, un piège que ce changement aurait armé. L'insertion dans l'appcast était un <code>sed -e "/&lt;\/description&gt;/r"</code>, qui insère après *chaque* ligne correspondante. Tant qu'aucun item n'avait de description il n'y en avait qu'une, celle du canal, et ça marchait. Avec les notes, chaque item en porte une : la publication suivante aurait recopié le nouvel item autant de fois qu'il y a de versions publiées. C'est maintenant une insertion après la première ancre, et elle échoue si l'ancre manque au lieu de ne rien faire.</p>
+<p><b>La version, des deux côtés.</b> Quand l'app tourne, le TUI devient une vue sur elle. Une app plus ancienne ignore sans broncher les champs qu'elle ne connaît pas — c'est ainsi que des pièces jointes ont disparu sans un message d'erreur, et qu'on a cherché le défaut dans le terminal. <code>/api/state</code> rend sa version, et la barre de statut du TUI affiche « app en 2.4.0, ici 2.6.0 » en orange quand elles divergent, au lieu d'un « relié à l'app » rassurant.</p>
+      ]]></description>
+      <pubDate>sam., 05 sept. 2026 15:49:24 +0000</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/syntax-Share/releases/download/v2.7.0/Syntax-2.7.0.zip"
+                 sparkle:edSignature="s3hvyHm9FLtD8C7dWzTEmAERs0KnZsaGWMu0sd8zHGdk0QZohZ6ff9HPyb0o7smdNL3dNsxT00/dCpgWA8IdAQ=="
+                 length="3738781"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 2.6.0</title>
       <pubDate>sam., 05 sept. 2026 10:28:17 +0000</pubDate>
       <sparkle:version>37</sparkle:version>
