@@ -18,13 +18,13 @@
 <p><b>Et une palette rapide, <code>⌘K</code></b> : les projets et les commandes dans une seule liste, deux lettres et Entrée. Elle ne fait rien elle-même — elle nomme un choix et le passe au même chemin que la barre de menus, sinon un geste finirait par faire deux choses différentes selon la porte prise.</p>
 <p>Le vocabulaire du mode de supervision — le mot, le symbole, la couleur, la phrase d'aide — vivait dans quatre fonctions privées de la vue principale. Le fil en a besoin aussi : il est passé dans un <code>ModeAgent</code> avec son contrôle, et deux copies du même vocabulaire ne divergeront plus.</p>
       ]]></description>
-      <pubDate>Sat, 12 Sep 2026 15:25:04 +0000</pubDate>
+      <pubDate>Sat, 12 Sep 2026 15:29:22 +0000</pubDate>
       <sparkle:version>39</sparkle:version>
       <sparkle:shortVersionString>2.9.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure url="https://github.com/gambidrissi-dev/syntax-Share/releases/download/v2.9.0/Syntax-2.9.0.zip"
-                 sparkle:edSignature="m1wx73vDNhdVbIbhf+ztD2qS3gnT82lVSlCC71DuHlME26j9mrUzkU6KgEtwf4Tupy76DtvEF+uew8lMrpRVBA=="
-                 length="3903033"
+                 sparkle:edSignature="OQZN9SETH8zhADzUvhYYNqPfx7rN54xT2lGL77oJZEmlidhWV3YFIcYsfBgJ8w4FfVNy8rg7iKONLiA3QBvgDQ=="
+                 length="3903038"
                  type="application/octet-stream" />
     </item>
     <item>
