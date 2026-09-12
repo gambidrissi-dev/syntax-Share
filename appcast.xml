@@ -5,6 +5,29 @@
     <link>https://github.com/gambidrissi-dev/syntax-Share</link>
     <description>Mises à jour de Syntax</description>
     <item>
+      <title>Version 2.9.0</title>
+      <description><![CDATA[
+<h3>Le fil se lit comme un terminal, les panneaux se tiennent comme un multiplexeur</h3>
+<p>Une refonte de l'interface en une passe. Deux références assumées : la densité d'un agent de code en ligne de commande pour le fil, et le châssis d'un multiplexeur de terminaux pour ce qui l'entoure.</p>
+<p><b>La couleur, d'abord.</b> Les deux fonds quittent le noir pur pour un graphite chaud violacé : sur un <code>#0B0B0C</code>, le sable et l'orange étaient les deux seules choses vivantes de l'écran et l'app avait l'air d'un terminal par défaut. Les panneaux passent au verre — Liquid Glass natif sur macOS 26, matériau système en dessous, pas de plancher relevé qui exclurait Sonoma. Deux accents entrent en renfort de l'orange, qui portait seul toute la couleur : l'or pour ce qui touche à l'argent, le vert d'eau pour ce qui touche au modèle et à ses capacités. Le restant d'un budget se lisait en gris, c'est-à-dire comme du bruit ; il est en or.</p>
+<p><b>Le fil se lit comme un terminal.</b> L'étiquette de 62 px qui répétait « TOI » et « MODÈLE » à chaque tour mangeait un sixième de la largeur pour dire ce qu'un signe dit mieux. À sa place, une gouttière d'un caractère : <code>&gt;</code> ce que tu as tapé, <code>⏺</code> ce qu'il répond ou fait, <code>⎿</code> ce que ça a donné. Ce que tu tapes et les sorties d'outils passent en chasse fixe — c'est de la frappe, pas de la prose ; la réponse du modèle reste en Raleway, parce que du français en monospace sur huit lignes se lit mal. Une sortie longue se replie sur sa première ligne et le compte de ce qui suit.</p>
+<p><b>Il se mène au clavier.</b> Tout se faisait à la souris : il n'y avait qu'un seul raccourci dans tout l'écran de travail. Échap refuse une demande, puis interrompt, puis vide le champ. <code>⇧⇥</code> fait tourner le niveau de supervision, et celui-ci est écrit en permanence sous la saisie au lieu de vivre dans un menu. <code>↑</code> remonte dans tes propres messages. <code>@</code> ouvre la liste des fichiers du projet, <code>/</code> les prompts enregistrés. <code>!</code> envoie la ligne dans le terminal d'à côté, qui s'ouvre pour l'occasion : la commande part là où elle a un shell, plutôt que d'être décrite au modèle pour qu'il la relance. Une autorisation se tranche par <code>1</code>, <code>2</code>, <code>3</code> — lus par le caractère produit et non par le code de touche, sans quoi un clavier français les aurait ratés.</p>
+<p><b>Les panneaux sont devenus des onglets.</b> Terminal, éditeur et aperçu s'excluaient : ouvrir l'éditeur faisait disparaître le shell qui compilait, et il fallait choisir entre voir le code et voir la compilation. Ils coexistent maintenant derrière une barre d'onglets — le shell continue de tourner pendant qu'on regarde ailleurs, et <code>⌘2</code> le ramène.</p>
+<p><b>Une barre d'état, en bas.</b> L'en-tête portait sur trois lignes l'identité du projet, son chemin, son modèle, son contexte, son mode et sa dépense, mêlés aux boutons. Ce qui <i>est vrai en ce moment</i> est descendu sur une ligne en chasse fixe : l'état de l'agent, le chemin complet, le modèle, le contexte, le mode, la dépense — chacun cliquable et menant là où il se change. Les boutons du haut font des choses, la ligne du bas dit des choses.</p>
+<p><b>Une couleur par projet</b>, tirée de son nom et stable d'un lancement à l'autre : rail dans la barre latérale, vignette d'en-tête, trait sous l'onglet ouvert, liseré de la barre d'état. C'est ce qui permet de retrouver un projet dans une colonne de vingt sans lire les noms.</p>
+<p><b>Et une palette rapide, <code>⌘K</code></b> : les projets et les commandes dans une seule liste, deux lettres et Entrée. Elle ne fait rien elle-même — elle nomme un choix et le passe au même chemin que la barre de menus, sinon un geste finirait par faire deux choses différentes selon la porte prise.</p>
+<p>Le vocabulaire du mode de supervision — le mot, le symbole, la couleur, la phrase d'aide — vivait dans quatre fonctions privées de la vue principale. Le fil en a besoin aussi : il est passé dans un <code>ModeAgent</code> avec son contrôle, et deux copies du même vocabulaire ne divergeront plus.</p>
+      ]]></description>
+      <pubDate>Sat, 12 Sep 2026 14:41:17 +0000</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>2.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/syntax-Share/releases/download/v2.9.0/Syntax-2.9.0.zip"
+                 sparkle:edSignature="De0PIUph45fn8lgfzcGBwmMed0sXJyWNKzbogN9stW87L4mEjRdGO6uJoahTL2pgxLvHwU5FXSOv0+UT5MyuBQ=="
+                 length="3903052"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 2.7.0</title>
       <description><![CDATA[
 <h3>Dit ce qu'une mise à jour apporte, et quelle version répond en face</h3>
