@@ -5,6 +5,21 @@
     <link>https://github.com/gambidrissi-dev/syntax-Share</link>
     <description>Mises à jour de Syntax</description>
     <item>
+      <title>Version 2.9.4</title>
+      <description><![CDATA[
+<h3>Le TUI suit le thème de la fenêtre au lieu de ses propres couleurs figées</h3>
+<p>orange(_:) et cobalt(_:) pointaient sur des codes ANSI 256 codés en dur, indépendants du réglage Graphite/Ardoise ajouté à la fenêtre — un thème qui ne changeait que la moitié de l'app. Les deux fonctions gardent leur nom (le même jeton sémantique que Thème.orange/Thème.cobalt côté SwiftUI, pas une couleur littérale) mais choisissent leur code ANSI selon Thème.actif, relevé une fois au lancement du TUI.</p>
+      ]]></description>
+      <pubDate>Sun, 13 Sep 2026 13:07:31 +0000</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>2.9.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/syntax-Share/releases/download/v2.9.4/Syntax-2.9.4.zip"
+                 sparkle:edSignature="a4v4XKJAHn6iz0/iyh/7wqzn7l1HBk8Py7Wf5FADkShrkNPAtGccZtYRxBZ36w+g4+KNmZprd4gqcSKzPgETBw=="
+                 length="3958692"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 2.9.3</title>
       <description><![CDATA[
 <h3>Un vrai réglage de thème — deux palettes, appliqué sans redémarrer</h3>
