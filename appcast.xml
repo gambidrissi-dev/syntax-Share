@@ -5,6 +5,22 @@
     <link>https://github.com/gambidrissi-dev/syntax-Share</link>
     <description>Mises à jour de Syntax</description>
     <item>
+      <title>Version 2.9.3</title>
+      <description><![CDATA[
+<h3>Un vrai réglage de thème — deux palettes, appliqué sans redémarrer</h3>
+<p>Retoucher le verre en place ne se voyait pas assez pour en juger. Plutôt que continuer à deviner, Thème devient un jeu de jetons sémantiques (orange = accent principal, cobalt = états…) que deux palettes peuvent remplir différemment : Graphite (l'existant, chaud, violet) et Ardoise (froid, bleu-ardoise, cobalt en accent). Aucun appel à Thème.xxx n'a changé ailleurs dans l'app.</p>
+<p>Réglages › État porte le sélecteur, appliqué au choix — pas besoin d'Enregistrer ni de relancer l'app pour comparer les deux.</p>
+      ]]></description>
+      <pubDate>Sun, 13 Sep 2026 13:03:57 +0000</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>2.9.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/syntax-Share/releases/download/v2.9.3/Syntax-2.9.3.zip"
+                 sparkle:edSignature="+kaAshmqDbTFAkHJDghh6HMsMeh3x+Tn4PRk5d7hqxYmM1YusKLgIVM4LIMyEU+0HWHaVQ/RRy/ooljJ0at0CQ=="
+                 length="3958667"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 2.9.2</title>
       <description><![CDATA[
 <h3>Le verre était noyé sous un fond plat en trop — retiré, comme sur Parure</h3>
