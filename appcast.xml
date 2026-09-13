@@ -5,6 +5,22 @@
     <link>https://github.com/gambidrissi-dev/syntax-Share</link>
     <description>Mises à jour de Syntax</description>
     <item>
+      <title>Version 2.9.2</title>
+      <description><![CDATA[
+<h3>Le verre était noyé sous un fond plat en trop — retiré, comme sur Parure</h3>
+<p>Après publication, aucune différence visible : le panneau gardait un fond Thème.surface à 30 % en plus du matériau, une couche que Parure (la référence validée « c'est parfait ») n'a jamais eue. Elle amortissait tout le contraste — le matériau n'avait plus rien à traverser que sa propre teinte plate.</p>
+<p>Retirée. Le liseré passe de sable à blanc (0.40 → 0.08, comme Parure) : c'est le contraste avec le fond sombre qui fait lire un bord de verre, pas sa teinte — le sable à 0.24 s'y perdait.</p>
+      ]]></description>
+      <pubDate>Sun, 13 Sep 2026 12:54:11 +0000</pubDate>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>2.9.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/syntax-Share/releases/download/v2.9.2/Syntax-2.9.2.zip"
+                 sparkle:edSignature="K/1Z1ucMA2G0JpFXFYSkt2CtQytL7PtHqWM5RxhTlkaZXHkMwyahU0BTTAnqDgSlEcHfz84mDbMeo30M6n37AA=="
+                 length="3896227"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 2.9.1</title>
       <description><![CDATA[
 <h3>Généralise le verre : les panneaux flottants restent du verre, pas du plat</h3>
