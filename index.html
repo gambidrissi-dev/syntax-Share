@@ -38,6 +38,11 @@
   .steps { color: var(--muted); font-size: 0.9rem; line-height: 1.7; }
   .steps b { color: var(--text); }
   ul.features { color: var(--muted); font-size: 0.92rem; line-height: 1.75; padding-left: 1.1rem; margin: 0; }
+  ul.features b { color: var(--text); font-weight: 600; }
+  .card h2 {
+    font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 1rem; font-weight: 600;
+  }
   footer { color: var(--muted); font-size: 0.8rem; text-align: center; margin-top: 2rem; }
   a.plain { color: var(--accent); }
 </style>
@@ -57,12 +62,29 @@
   </div>
 
   <div class="card">
+    <h2>Un agent de code, pas un chat</h2>
     <ul class="features">
-      <li>Conversation par projet, avec son historique et sa mémoire</li>
-      <li>Outils fichiers, shell et navigateur, sous périmètre contrôlé</li>
-      <li>Budget par appel, pour garder la dépense visible</li>
-      <li>Stockage SQLite local, rien qui parte ailleurs</li>
+      <li><b>Un projet = un dossier</b> — Syntax lit et écrit dedans directement, avec un périmètre de fichiers vérifié à chaque appel.</li>
+      <li><b>Plafond de dépense par projet</b> — le solde est relu avant chaque appel au modèle ; au-delà, l'app n'appelle rien.</li>
+      <li><b>~420 modèles au choix</b> — OpenRouter ou LM Studio en local à coût nul, filtrables par ce qu'ils savent faire (image, son, outils…).</li>
+    </ul>
+  </div>
 
+  <div class="card">
+    <h2>Au travail</h2>
+    <ul class="features">
+      <li><b>Terminal, éditeur et aperçu web intégrés</b> — bascule entre le fil de conversation, un vrai shell et un fichier ouvert sans quitter l'app.</li>
+      <li><b>Diffs lisibles</b> — chaque écriture de fichier s'affiche en lignes vertes/rouges, pas en bloc de texte brut.</li>
+      <li><b>Trois niveaux de supervision</b> — Auto, Supervisé, Strict : choisis ce qui demande ton accord avant de s'exécuter.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Mémoire &amp; automatisation</h2>
+    <ul class="features">
+      <li><b>Mémoire transverse à tous les projets</b> — une note dite une fois n'a pas besoin d'être redite ailleurs, et l'archive complète reste cherchable des mois après.</li>
+      <li><b>Travaux programmés</b> — planifie un rapport quotidien ou une veille horaire que l'agent mène seul, sans toi devant l'écran.</li>
+      <li><b>Serveurs MCP et Safari piloté</b> — branche GitHub, Notion, Postgres... ou laisse l'agent naviguer dans ta vraie fenêtre Safari, avec accord à chaque action sensible.</li>
     </ul>
   </div>
 
